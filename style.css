@@ -6,18 +6,27 @@ body {
     
 }
 
+h1 {
+    margin: auto;
+    margin-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
 
 nav {
     box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     display: flex;
+    padding-right: 20%;
 }
 
 .box1 {
     
     display: flex;
     background-color: lightblue;
-    margin: 5px;
+    margin: 10px;
     padding: 12px;
     color: black;
     box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
@@ -36,5 +45,24 @@ nav {
 
 img {
     margin: 20px;
+    border-radius: 5px;
+}
+
+.box2 {
+    display: inline-block;
+    background-color: lightblue;
+    margin: 10px;
+    padding: 12px;
+    color: black;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+.box2:hover {
+    background-color: lightgray;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 600;
 }
 
